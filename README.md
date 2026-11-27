@@ -14,10 +14,10 @@ python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
 
-## 5. Run the Application
+## 3. Run the Application
 
 ```bash
 python app.py
 ```
 The application runs locally at:
-**http://127.0.0.1:5000*
+*http://127.0.0.1:5000*
