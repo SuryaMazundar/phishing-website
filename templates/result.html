@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulation complete</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="shell">
+    <div class="brand"><span class="mark">T</span><span>SECURITY AWARENESS</span></div>
+    <section class="panel">
+      <div class="eyebrow">SIMULATION COMPLETE</div>
+      <h1>You reached the training page</h1>
+      <p class="intro">In a real phishing incident, entering a password on an attacker-controlled
+      page could expose the account. This classroom version did not collect your entries.</p>
+      <h2>Warning signs to notice</h2>
+      <ul>
+        <li>Unexpected urgency message pop-ups, banners or a threat of account interruption.</li>
+        <li>A link whose domain is not an official <code>utk.edu</code> domain.</li>
+        <li>A request to re-enter a password after following an email link.</li>
+      </ul>
+      <a class="button-link" href="{{ url_for('utk_public_link') }}">Continue to the public UTK website</a>
+    </section>
+    <footer>No credentials were collected</footer>
+  </main>
+</body>
+</html>
