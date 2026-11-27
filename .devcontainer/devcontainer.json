@@ -1,0 +1,14 @@
+{
+  "name": "COSC366 Phishing",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [
+    5000
+  ],
+  "portsAttributes": {
+    "5000": {
+      "label": "Local Flask simulation",
+      "onAutoForward": "notify"
+    }
+  }
+}
